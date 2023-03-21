@@ -1,0 +1,445 @@
+@import url('../css/bootstrap.min.css');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  z-index: 990;
+  color: red;
+}
+
+.navbar ul {
+  display: inline-flex;
+  width: 100%;
+  list-style: none;
+}
+
+
+.navbar ul li {
+  margin-left: 10%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+
+.navbar ul li:hover {
+  color: white;
+  background-color: black;
+}
+
+.navbar ul li:nth-child(1){
+  background-color: red;
+  color: white;
+}
+
+
+.slideshow-container {
+  display: grid;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+
+.slide1,
+.slide2,
+.slide3,
+.slide4 {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+
+.slide1{
+    background-image: url("../images/blog.jpg");
+    z-index: 1;
+}
+
+.slide2 {
+    background-image: url("../images/crisis.jpg");
+}
+
+.slide3 {
+    background-image: url("../images/technology.jpg");
+}
+
+.slide4 {
+    background-image: url("../images/climate.jpg");  
+}
+
+
+
+/*Style banner contents */
+
+.slide1 .container1 {
+  height: 100%;
+  background-color: white;
+  opacity: 0.4;
+}
+
+.slide2 .container {
+  background-color: blue;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.slide2  .content {
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: -90vh;
+  margin: 0px auto;
+}
+
+
+.slide3 .container1 {
+  background-color: black;
+  height: 100%;
+  opacity: 0.4;
+}
+
+
+.slide1 .container2,
+.slide3 .container2 {
+  padding: 40px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bolder;
+  position: relative;
+  top: -90vh;
+}
+
+
+.slide4 .container1 {
+  background-color: red;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.slide4 .container2 {
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bolder;
+  position: relative;
+  top: -90vh;
+  padding: 30px;
+}
+
+
+.pages{
+  width: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: abolute;
+  left: 0;
+  right: 0;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.pages div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px black solid;
+  position: relative;
+  top: -20px;
+  background-color: white;
+  z-index: 40;
+}
+
+.pages div:hover {
+  border-color: green;
+  background-color: black;
+}
+
+@media(min-width: 1300px) {
+  .container2 p, .container2 button{
+    position: relative;
+    top: 20rem;
+  }
+
+  .about {
+    height: 50vh;
+  }
+}
+
+
+/*stylings for about author blog page */
+
+.about {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  width: 99%;
+  margin: 10px auto;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 1fr;
+  grid-gap: 20px;
+  line-height: 30px;
+}
+
+.about h1 {
+  font-size: 20px;
+}
+
+
+.about-header {
+  grid-area: 1/span 2/2;
+}
+
+
+.description img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid lightblue;
+  float: left;
+}
+
+.description img:hover {
+  border-color: lightcoral;
+}
+
+.description {
+  grid-area: 2/1/3/3;
+}
+
+.description span {
+  position: relative;
+  left: 20px;
+}
+
+.about:hover {
+  background-color: lightgray;
+}
+
+.blogs-header {
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.blogs-container{
+  display: grid;
+  grid-auto-rows: 200px;
+}
+
+
+.blogs-container div div button {
+  width: 150px;
+  display: grid;
+  margin: 10px auto;
+  height: 40px;
+  padding: 5px;
+  grid-gap: 10px;
+}
+
+.blog {
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.blog p[class="text-center"] {
+  color: red;
+}
+
+/*style page footer */
+
+.footer{
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+@media(min-width:530px){
+  .footer {
+    background-color: #000000;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 15%;
+    grid-gap: 20px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer4{
+  color: orange;
+  grid-area: 2/1/3/4;
+}
+
+.footer li:hover, .footer li a:hover{
+  color: green;
+}
+
+
+@media(max-width: 900px){
+  .blogs-container{
+    grid-auto-rows: 250px;
+  }
+
+}
+@media(max-height:560px) {
+  .slideshow-container {
+    display: flex;
+    grid-template-rows: repeat(4, auto);
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .slideshow-container .container2 {
+    margin-top: -100px;
+  }
+
+}
+
+@media(max-width: 529px) {
+  .footer div {
+    margin: 30px;
+  }
+  .blogs-container{
+    grid-auto-rows: 250px;
+  }
+}
+
+@media(max-width: 530px) {
+ .slideshow-container .container2 {
+    width: 100%;
+    padding-top:40%;
+  }
+
+  .navbar ul {
+    position: relative;
+    left: -50px;
+    font-size: small;
+  }
+}
+
+@media(max-width:450px){
+  .container2 {
+    margin-top: -100px;
+  }
+
+  .slide2 .container2{
+    margin-top:  -80px;
+  }
+}
+
+@media(max-width: 400px){
+  .blogs-container{
+    grid-auto-rows: 300px;
+  }
+}
+
+
+
+@media(max-width: 360px){
+  .slide2 button{
+    position : relative;
+    top: -40px;
+  }
+}
+
+@media(max-width:320px) {
+  .slideshow-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .mySlides {
+    padding-top: 30px;
+    color: red;
+    height: 70vh;
+    overflow-y: scroll;
+  }
+
+  .pages {
+    position: relative;
+    top: 50px;
+  }
+}
+
+
+@media (max-width:290px) {
+  .slideshow-container .container2 {
+    width: 100%;
+    padding: 4px;
+  }
+
+  .slide2  button {
+    position: relative;
+    top: -49px;
+    left: 20px;
+    height: 30px;
+    padding: 3px;
+  }
+
+  .pages{
+    position: relative;
+    top: 6px;
+  }
+
+  .blogs-container{
+    grid-auto-rows: 340px;
+  }
+}
+
