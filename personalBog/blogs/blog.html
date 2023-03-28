@@ -10,50 +10,51 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Blogs</li>
+        <div class="navBar">
+            <div><p class="text-lg text-center"><span class="text-warning">The</span><span class="text-info"> Morning</span> <span class="star">S</span>tar</p></div>
+        </div>
+
+        <div class="side-menu" onmouseleave="toogle_side_menu();">
+            <p class="text-info">Blog Posts</p>
+            <ul class="list-unstyled list-group">
+                <li class="list-group-item"><a href="#climateChange">Climate Change</a></li>
+                <li class="list-group-item"><a href="#Economic-crisis">Economic Crisis</a></li>
+                <li class="list-group-item"><a href="#AIs">AIs taking over</a></li>
+                <li class="list-group-item"><a href="#">The wars</a></li>
+                <li class="list-group-item"><a href="#">Travel Tips</a></li>
+                <li class="list-group-item"><a href="#">Cooking Hacks</a></li>
+                <li class="list-group-item"><a href="#">Fitness Motivation</a></li>
+                <li class="list-group-item"><a href="#">Product Reviews</a></li>
+                <li class="list-group-item"><a href="#">Photography Tips</a></li>
+                <li class="list-group-item"><a href="#">Social Media Marketing</a></li>
+                <li class="list-group-item"><a href="#">DIY Projects</a></li>
+                <li class="list-group-item"><a href="#">Healthy Eating</a></li>
+                <li class="list-group-item"><a href="#">Music Reviews</a></li>
+                <li class="list-group-item"><a href="#">Makeup Tutorials</a></li>
+                <li class="list-group-item"><a href="#">Home Decor Ideas</a></li>
+                <li class="list-group-item"><a href="#">Writing Inspiration</a></li>
+                <li class="list-group-item"><a href="#">Art Techniques</a></li>
+                <li class="list-group-item"><a href="#">Fashion Trends</a></li>
+                <li class="list-group-item"><a href="#">Personal Finance</a></li>
+                <li class="list-group-item"><a href="#">Job Interview Tips</a></li>
+                <li class="list-group-item"><a href="#">Relationship Advice</a></li>
+                <li class="list-group-item"><a href="#">Entrepreneurship Strategies</a></li>
+                <li class="list-group-item"><a href="#">Outdoor Adventures</a></li>
+                <li class="list-group-item"><a href="#">Book Reviews</a></li>
             </ul>
         </div>
+
     </header>
 
     <div class="main-container" id="main-content">
-        <div class="side-menu">
-            <p class="text-center">Blog Posts</p>
-            <ul class="list-unstyled list-group">
-                <li>Climate Change</li>
-                <li>Economic Crisis</li>
-                <li>AIs taking over</li>
-                <li>The wars</li>
-                <li>Travel Tips</li>
-                <li>Cooking Hacks</li>
-                <li>Fitness Motivation</li>
-                <li>Product Reviews</li>
-                <li>Photography Tips</li>
-                <li>Social Media Marketing</li>
-                <li>DIY Projects</li>
-                <li>Healthy Eating</li>
-                <li>Music Reviews</li>
-                <li>Makeup Tutorials</li>
-                <li>Home Decor Ideas</li>
-                <li>Writing Inspiration</li>
-                <li>Art Techniques</li>
-                <li>Fashion Trends</li>
-                <li>Personal Finance</li>
-                <li>Job Interview Tips</li>
-                <li>Relationship Advice</li>
-                <li>Entrepreneurship Strategies</li>
-                <li>Outdoor Adventures</li>
-                <li>Book Reviews</li>
-            </ul>
-        </div>
         <div class="main-content" id="blog-posts">
             <div class="blog-posts">
-                <div class="container post">
+                <div class="container post" id="Economic-crisis">
                     <div>
                         <h1 class="text-center title">Economic Crisis!</h1>
+                        <div class="author">
+                            <p>By Jack Watua <img src = "./images/profile.jpeg" alt="profile"></p>
+                        </div>
                         <hr>
                         <p>Economic crises have become a global issue, affecting countries across the world. Kenya, like many other countries, has experienced economic turmoil that has had a significant impact on its people. The economic crisis in Kenya has led to numerous challenges for both the government and citizens. In this article, we will examine the economic crisis in Kenya, its causes, and its impact on the country.</p>
                         <p>The economic crisis in Kenya can be traced back to several factors, including a global economic slowdown, declining commodity prices, and a lack of investment in key sectors. Additionally, Kenya has also faced political unrest and insecurity, which have contributed to the economic downturn.</p>
@@ -70,14 +71,17 @@
                         <img src="./images/comment.png" alt="action-icon">
                     </div>
                 </div>
-                
-                
-                
-                <div class="container post">
+
+
+
+                <div class="container post" id="AIs">
                     <div>
-                    <h1 class="text-center title">Artificial intelligence (AI)</h1>
-                    <hr>
-                    <p>Artificial intelligence (AI) has been around for decades, but in recent years it has gained significant traction in the tech industry. From voice assistants like Siri and Alexa to self-driving cars and advanced robotics, AI is transforming the way we live and work.</p>
+                        <h1 class="text-center title">Artificial intelligence (AI)</h1>
+                        <div class="author">
+                            <p>By Jack Watua <img src = "./images/profile.jpeg" alt="profile"></p>
+                        </div>
+                        <hr>
+                        <p>Artificial intelligence (AI) has been around for decades, but in recent years it has gained significant traction in the tech industry. From voice assistants like Siri and Alexa to self-driving cars and advanced robotics, AI is transforming the way we live and work.</p>
                         <p>While many see the benefits of AI, there are concerns about the potential consequences of machines becoming smarter than humans.</p>
                         <p>One of the biggest fears surrounding AI is the possibility that machines will replace humans in the workforce. As AI systems become more advanced, they are able to perform tasks that were once only possible for humans. This can lead to significant job losses, particularly in industries where repetitive tasks are common. For example, many manufacturing jobs have already been automated, and the trend is expected to continue.</p>
                         <p>Another concern is the potential for AI to become too powerful. As machines become smarter, they may be able to make decisions on their own, without human intervention. This raises questions about who will be responsible for the actions of intelligent machines. If an AI system makes a mistake, who will be held accountable? This is particularly concerning in areas like healthcare, where mistakes can have life-threatening consequences.</p>
@@ -93,11 +97,14 @@
                         <img src="./images/comment.png" alt="action-icon">
                     </div>
                 </div>
-                
-                
-                <div class="container post">
+
+
+                <div class="container post" id="climateChange">
                     <div>
-                    <h1 class="text-center title">Climate Change in Kenya: Challenges and Opportunities</h1>
+                        <h1 class="text-center title">Climate Change in Kenya: Challenges and Opportunities</h1>
+                        <div class="author">
+                            <p>By Jack Watua <img src ="./images/profile.jpeg" alt="profile"></p>
+                        </div>
                     <hr>
                         <p>Kenya is a country that is vulnerable to the impacts of climate change, including droughts, floods, and extreme weather events. Climate change is already affecting Kenya's economy, environment, and society, and it is projected to have even greater impacts in the future.</p>
                         <p>One of the biggest challenges facing Kenya is the impact of climate change on agriculture. Kenya's economy is heavily dependent on agriculture, with over 70% of the population engaged in farming. Climate change is leading to reduced crop yields and increased food insecurity, particularly in the arid and semi-arid regions of the country. Droughts are becoming more frequent and severe, making it harder for farmers to grow crops and maintain livestock.</p>
@@ -113,39 +120,12 @@
                         <img src="./images/subscribe.png" alt="action-icon">
                         <img src="./images/comment.png" alt="action-icon">
                     </div>
-                </div>   
-                
+                </div>
             </div>
-
-            <div class="humbugger" onclick="toogle_side_menu()" id="humbugger">
+            <div class="humbugger" onclick="toogle_side_menu();" id="humbugger">
                 <img src="./images/menu.png" alt="menu icon">
-            
             </div>
-
-            <p>Height : <span id="height"></span></p>
-            <p>Width : <span id="width"></span></p>
-        
-            <script>
-                function update_val () {
-                    let h = document.querySelector("#height");
-                    let w = document.querySelector("#width");
-                    h.textContent = window.innerHeight;
-                    w.textContent = window.innerWidth;
-                }
-        
-                update_val();
-        
-                window.addEventListener ('resize', update_val);
-            </script>
-
         </div>
     </div>
-    <script src="./js/main.js">
-        window.addEventListener("resize", () => {
-            if (window.innerWidth > 1000) {
-                document.getElementById("main-content").style.color = "purple"
-            }
-        })
-    </script>
 </body>
 </html>
