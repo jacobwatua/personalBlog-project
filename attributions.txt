@@ -1,0 +1,11 @@
+#personal blog image
+Image 1 - Photo by Pixabay: https://www.pexels.com/photo/black-and-white-blog-business-coffee-261579/
+#Economic crisis
+Image 2 - Photo by Pixabay: https://www.pexels.com/photo/airport-bank-board-business-534216/
+#AI taking over
+Image 3 - Photo by Kindel Media: https://www.pexels.com/photo/white-and-blue-robot-figure-8566473/
+#clmate change
+Image 4 - Photo by Pixabay: https://www.pexels.com/photo/photo-of-brown-bare-tree-on-brown-surface-during-daytime-60013/
+Photo by Anna Tarazevich: https://www.pexels.com/photo/woman-looking-at-cryptocurrency-charts-on-her-laptop-14751157/
+
+- The Icon images ussed in these projects are images from google fonts and icons
