@@ -1,0 +1,48 @@
+/*media queries */
+
+@media(min-width: 1550px) {
+    .navbar ul {
+        padding-left: 30%;
+    }
+
+    .side-menu {
+        display: block;
+        width: 200px;
+    }
+
+    .side-menu p {
+        width: 200px;
+    }
+
+    .humbugger {
+        display: none;
+    }
+}
+
+
+@media(max-width:1549px) {
+    .humbugger {
+        display: block;
+    }
+
+    .side-menu {
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    .humbugger {
+        display: block;
+    }
+}
+
+@media(max-width:500px){
+    .navbar  ul{
+        position: relative;
+        left: 20px;
+    }
+
+    .side-menu, .side-menu p {
+        width: 200px;
+    }
+}

@@ -1,0 +1,12 @@
+@import url('corrections.css');
+@import url('header.css');
+@import url('article.css');
+@import url('footer.css');
+@import url('mediaQueries.css');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
